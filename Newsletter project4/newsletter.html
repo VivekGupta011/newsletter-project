@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+       /* google fonts */
+     @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+      body {
+        margin: 0;
+        background-color: #cccccc;
+      }
+      table {
+        border-spacing: 0;
+      }
+      td {
+        padding: 0;
+      }
+      img {
+        border: 0;
+      }
+      a{
+        text-decoration: none;
+      }
+      .wraper {
+        font-family: 'Mulish', sans-serif;
+        table-layout: fixed;
+        background-color: #cccccc;
+      }
+      .main {
+        margin: 0 auto;
+        max-width: 600px;
+        background-color: #ffffff;
+        width: 100%;
+        overflow: hidden;
+        height: 100px;
+      }
+
+      /* location icons */
+      img.location-icon {
+        width: 15px;
+        bottom: -3px;
+        position: relative;
+      }
+      /* images adjustment */
+      img.images {
+            width: 25px;
+            padding-right: 6px;
+                 }
+
+
+      /* social media */
+      img.images.images-yt {
+    width: 35px;
+}
+
+      /* vertical line */
+      /* .vl {
+           border-left: 5px solid black;
+           height: 53px;
+           position: relative;
+           left: -276px;
+          } */
+
+      /* responsive */
+      /* large small mobile responsive */
+      @media only screen and (max-width:455px){
+
+        .footer-hr{
+          height: 2px !important;
+          border-width: 2px !important;
+          margin: 8px 70px !important;
+          bottom: -9px !important;
+          position: relative !important;
+          background-color: cornflowerblue !important;
+        }
+
+        .candidate-text{
+          font-size: 27px !important;
+          position: relative !important;
+          top: -25px !important;
+          font-weight: 900 !important;
+          right: -20px !important;
+
+        }
+
+        .step2-text-set{
+          vertical-align: middle;
+          position: relative;
+          top: -11px;
+        }
+        .play-section{
+          padding: 15px 5px !important;
+          text-align: center !important;
+          font-size: 11px !important;
+          font-weight: 900 !important;
+        }
+      }
+
+      @media only screen and (max-width:455px) {
+        .step3-text-set{
+          vertical-align: middle;
+          position: relative;
+          top: -16px;
+        }
+        
+      }
+
+      /* small mobile responsive */
+      @media only screen and (max-width:385px) {
+        .main-job-table{
+          border-spacing: 0;
+          padding: 42px 14px;
+          width: 102%;
+
+        }
+        .post-job2 #button{
+          text-decoration: none !important;
+          background-color: cornflowerblue !important;
+          padding: 9px !important;
+          border-radius: 12px !important;
+          position: relative !important;
+          top: -4px !important;
+          right: -126px !important;
+        }
+        .post-job2 P{
+          font-size: 12px !important;
+          position: relative !important;
+          padding-top: 5px !important;
+          right: -117px !important;
+          top: -1px !important;
+
+        }
+        
+      }
+
+      /* for click button view  */
+      @media only screen and (min-width:580px) {
+        .post-job1{
+          display: block;
+          position: relative;
+          top: 127px;
+        }
+        .post-job2{
+          display: none;
+        }
+
+        
+      }
+
+      @media  only screen and (max-width:570px) {
+        .post-job1{
+          display: none;
+        }
+        
+        
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <center class="wraper">
+      <table class="main">
+        <!-- logo -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="column-one">
+                  <table>
+                    <tr>
+                      <td>
+                        <a href=""
+                          ><img
+                            src="./images/workindia_logo.png"
+                            alt=""
+                            style="
+                              border: 0;
+                              margin-left: auto;
+                              display: block;
+                              margin-right: auto;
+                              padding: 2px 0px 15px;
+                              width: 53%;
+                              margin-top: 10px;
+                            "
+                        /></a>
+                      </td>
+                    </tr>
+                  </table>
+                  <table>
+                    <tr></tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- Hero section -->
+        <tr>
+          <td>
+            <table width="100%" style="padding-bottom: 30px">
+              <tr>
+                <td
+                  class="hero-section"
+                  width="100%"
+                  style="
+                    background-image: url(./images/vecotor-img.png),
+                      url(./images/pi.png);
+                    width: auto;
+                    background-position: right bottom, right top;
+                    background-size: 53% 65%, 18% 18%;
+                    background-repeat: no-repeat;
+                    height: 393px;
+                  "
+                >
+                  <h3
+                    style="
+                      font-size: 25px;
+                      position: relative;
+                      top: 4px;
+                      right: -20px;
+                      font-weight: 100;
+                    "
+                  >
+                    Already found the
+                  </h3>
+                  <h2 class="candidate-text"
+                    style="
+                      font-size: 38px;
+                      position: relative;
+                      top: -25px;
+                      font-weight: 900;
+                      right: -20px;
+                      color: cornflowerblue;
+                    "
+                  >
+                    RIGHT CANDIDATE
+                  </h2>
+                  <p
+                    class="question-mark"
+                    style="
+                          margin-top: 0;
+                          font-size: 120px;
+                          top: -62px;
+                          right: -77px;
+                          position: relative;
+                          margin-bottom: 0;
+                    "
+                  >
+                    ?
+                  </p>
+                  <a
+                    href=""
+                    class="button"
+                    style="
+                      text-decoration: none;
+                      background-color: cornflowerblue;
+                      padding: 9px;
+                      border-radius: 12px;
+                      right: -56px;
+                      position: relative;
+                      top: -65px;
+                    "
+                  >
+                    CLICK HERE</a
+                  >
+                  <p
+                    class="text"
+                    style="position: relative; right: -32px; top: -60px"
+                  >
+                    TO HIRE THEM NOW!
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- typography -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td style="padding: 0px 20px">
+                  <h1 style="    color: cornflowerblue;
+                  font-size: 22px;">
+                    Greetings (Company Name)
+                  </h1>
+                  <p style="text-align: justify">
+                    &nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Fugit saepe itaque laudantium
+                    natus dolore voluptas ad earum cupiditate similique
+                    inventore expedita tempore reiciendis ex perspiciatis
+                    tenetur, obcaecati, velit possimus beatae?
+                  </p>
+                  <p style="text-align: justify">
+                    &nbsp;&nbsp;&nbsp;&nbsp; Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Quidem ipsum in officia dolore
+                    harum quos, inventore esse ex voluptatibus quis
+                    necessitatibus. Optio praesentium magni magnam!
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- dynamic part here -->
+        <tr>
+          <td>
+            <table width="100%" style="border-spacing: 0; padding: 45px 13px" class="main-job-table">
+              <tr>
+                <td class="post-job1">
+                  <a
+                    href=""
+                    class="button"
+                    style="
+                      text-decoration: none;
+                      background-color: cornflowerblue;
+                      padding: 9px;
+                      border-radius: 12px;
+                      position: relative;
+                      right: -42px;
+                    "
+                  >
+                    Click here</a
+                  >
+                  <p
+                    style="
+                      font-size: 12px;
+                      position: relative;
+                      padding-top: 5px;
+                      right: -28px;
+                    "
+                  >
+                    TO POST NEW JOB
+                  </p>
+                </td>
+                <td class="job-table"
+                  style="
+                        border: 3px solid cornflowerblue;
+                       border-radius: 20px;
+                       width: 389px;
+                       height: 275px;
+                               "
+                >
+                  <table width="100%">
+                    <tr>
+                      <td>
+                        <p
+                          style="
+                            font-family: 'Mulish', sans-serif;
+                            line-height: 20px;
+                            font-size: 14px;
+                            position: relative;
+                            right: -21px;
+                            font-weight: lighter;
+                          "
+                        >
+                          <strong>Web Developer</strong>
+                          <a href=""
+                            ><img
+                              src="./images/pin.png"
+                              alt=""
+                              class="location-icon"
+                          /></a>
+                          Andheri,Mumbai,<br />
+                          ₹10,000-20,000 per month |<br />
+                          3 years of experience | B.s.c|English
+                        </p>
+                      </td>
+                      <td>
+                        <a
+                          href=""
+                          class="buttonn"
+                          style="
+                            text-decoration: none;
+                            background-color: cornflowerblue;
+                            padding: 9px;
+                            border-radius: 12px;
+                          "
+                          >Activate</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                  <table width="100%">
+                    <tr>
+                      <td>
+                        <p
+                          style="
+                            font-family: 'Mulish', sans-serif;
+                            line-height: 20px;
+                            font-size: 14px;
+                            position: relative;
+                            right: -21px;
+                            font-weight: lighter;
+                          "
+                        >
+                          <strong>Web Developer</strong>
+                          <a href=""
+                            ><img
+                              src="./images/pin.png"
+                              alt=""
+                              class="location-icon"
+                          /></a>
+                          Andheri,Mumbai,<br />
+                          ₹10,000-20,000 per month |<br />
+                          3 years of experience | B.s.c|English
+                        </p>
+                      </td>
+                      <td>
+                        <a
+                          href=""
+                          class="buttonn"
+                          style="
+                            text-decoration: none;
+                            background-color: cornflowerblue;
+                            padding: 9px;
+                            border-radius: 12px;
+                          "
+                          >Activate</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                  <table width="100%">
+                    <tr>
+                      <td>
+                        <p
+                          style="
+                            font-family: 'Mulish', sans-serif;
+                            line-height: 20px;
+                            font-size: 14px;
+                            position: relative;
+                            right: -21px;
+                            font-weight: lighter;
+                          "
+                        >
+                          <strong>Web Developer</strong>
+                          <a href=""
+                            ><img
+                              src="./images/pin.png"
+                              alt=""
+                              class="location-icon"
+                          /></a>
+                          Andheri,Mumbai,<br />
+                          ₹10,000-20,000 per month |<br />
+                          3 years of experience | B.s.c|English
+                        </p>
+                      </td>
+                      <td>
+                        <a
+                          href=""
+                          class="buttonn"
+                          style="
+                            text-decoration: none;
+                            background-color: cornflowerblue;
+                            padding: 9px;
+                            border-radius: 12px;
+                          "
+                          >Activate</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+
+                
+
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- button for mobile view -->
+        <tr>
+          <td class="post-job2">
+            <a
+              href=""
+              id="button"
+              style="
+                       text-decoration: none;
+    background-color: cornflowerblue;
+    padding: 9px;
+    border-radius: 12px;
+    position: relative;
+    top: -4px;
+    right: -184px;
+              "
+            >
+              Click here</a
+            >
+            <p
+              style="
+                      font-size: 12px;
+    position: relative;
+    padding-top: 5px;
+    right: -175px;
+    top: -1px;
+              "
+            >
+              TO POST NEW JOB
+            </p>
+          </td>
+        </tr>
+
+        <!-- horizontal line -->
+        <tr>
+          <td>
+            <table width="100%">
+              <hr
+                style="
+                  height: 2px;
+                  border-width: 2px;
+                  margin: 8px 41px;
+                  color: gray;
+                  background-color: cornflowerblue;
+                "
+              />
+            </table>
+          </td>
+        </tr>
+
+        <!-- typography part here -->
+        <tr>
+          <td style="padding: 0 20px">
+            <table width="100%">
+              <p style="text-align: justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                nostrum obcaecati delectus quos sequi! Deleniti numquam nesciunt
+                vel iusto quos.
+              </p>
+              <p style="text-align: justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+                nostrum obcaecati delectus quos sequi! Deleniti numquam nesciunt
+                vel iusto quos.
+              </p>
+            </table>
+          </td>
+        </tr>
+
+        <!-- images adjustment -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td>
+                  <h2 style="    text-align: center;
+                  font-size: 32px;">Hire in just <a href="">3 steps</a></h2>
+                </td>
+              </tr>
+              
+            </table>
+
+            <table width="100%" style="padding: 35px 15px;">
+              <tr>
+                <td>
+                  <td  style="vertical-align: middle">
+                    <a href="#"><img src="./images/step1.png" alt="" style="width: 70%;
+                      padding: 5px 20px;"></a>
+                    <h3 style="font-size:14px;">Post a job on the app</h3>
+                  </td>
+                  <td  style="vertical-align: middle" class="step2-text-set">
+                    <a href="#"><img src="./images/step2.png" alt=""  class="step2-img" style="    width: 51%;
+                      position: relative;
+                      top: 15px;
+                      right: -48px;"></a>
+                    <h3 style="    padding: 0px 8px;
+                    font-size: 14px;
+                    position: relative;
+                    bottom: -17px;">Receive calls from relevant candidates</h3>
+                  </td>
+                  <td  style="vertical-align: middle" class="step3-text-set">
+                    <a href="#"><img src="./images/step3.png" alt="" style="width: 100%;
+                      position: relative;
+                      bottom: -18px;"></a>
+                    <h3 style="    font-size: 14px;
+                    position: relative;
+                    bottom: -20px;">Find the best fit for the job </h3>
+                  </td>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- google play -->
+
+        <tr>
+          <td style="padding:20px 0px;">
+            <table width="100%" style="    background-color: cornflowerblue;
+            width: 90%;
+            position: relative;
+            right: -28px;
+            border-radius: 12px;">
+              <tr>
+                <td class="play-section" style="    padding: 15px 5px;
+                text-align: center;
+                font-size: 15px;">
+                  Download <a href="#"> WorkIndia</a> Recruiter App Now! And hire the best candidates! 
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#"> <img src="./images/play.png" alt="" style="    width: 80px;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    top: -6px;
+                    position: relative;"></a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- footer part -->
+        <tr>
+          <td>
+            <table width="100%">
+              <tr>
+                <td class="social-media" style="text-align: center;">
+                  <a href=""><img class="images" src="./images/fb.png" alt=""></a>
+                  <a href=""><img class="images" src="./images/ig.png" alt=""></a>
+                  <a href=""><img class="images" src="./images/in.png" alt=""></a>
+                  <a href=""><img class="images images-yt" src="./images/yt.png" alt=""></a>
+
+                </td>
+
+                <!-- <td>
+                  <div class="vl"></div>
+                </td> -->
+
+                
+              </tr>
+
+              <tr>
+                <tr>
+                  <td>
+                    <table width="100%">
+                      <hr class="footer-hr"
+                        style="
+                              height: 2px;
+                              border-width: 2px;
+                              margin: 8px 160px;
+                              bottom: -9px;
+                              position: relative;
+                              background-color: cornflowerblue;
+                        "
+                      />
+                    </table>
+                  </td>
+                </tr>
+              </tr>
+
+              <tr>
+                <td>
+                  <p style="    font-family: 'Mulish', sans-serif;
+                 font-size: 15px; text-align: center;">
+                 STAY SAFE AND HAPPY HIRING <br />
+                 <a href="" style="color: #ffd700;">WORKINDIA</a> TEAM
+                 </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
